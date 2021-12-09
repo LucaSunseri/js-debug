@@ -54,13 +54,31 @@ function addIfEven(num) {
 }
 
 
-// // ESERCIZIO 3
-// function loopToFive() {
-//     for (let i = 0, i < 5, i++) {
-//         console.log(i);
-//     }
-// }
+// ESERCIZIO 3
+/* 
+!FUNZIONE ERRATA
+function loopToFive() {
+    for (let i = 0, i < 5, i++) {
+        console.log(i);
+    }
+}
+*/
 
+/* 
+    1- Che cosa fa questo codice?
+        La funzione esegue un ciclo for
+    2- Sono presenti errori di sintassi?
+        Si, la virgola invece del punto e virgola
+    3- Sono presenti errori logici?
+        No
+*/
+
+// *FUNZIONE CORRETTA
+function loopToFive() {
+    for (let i = 0; i < 5; i++) {
+        console.log(i);
+    }
+}
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 /* 
@@ -83,6 +101,7 @@ function displayEvenNumbers() {
     2- Sono presenti errori di sintassi?
         Si
     3- Sono presenti errori logici?
+        SI, il return all'interno del ciclo for
         
 */
 
