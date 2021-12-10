@@ -45,6 +45,7 @@ function checkAge() {
     } else {
         message = 'Hai più di 18 anni!';
     }
+    return message;
 }
 // checkAge();
 
