@@ -45,9 +45,8 @@ function checkAge() {
     } else {
         message = 'Hai più di 18 anni!';
     }
-    return message;
 }
-// checkAge();
+checkAge();
 
 // ESERCIZIO 2
 /*
@@ -73,7 +72,7 @@ function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
     console.log(`Nella mia palette ci sono ${colors.length} colori!`);
 }
-// printColorsNumber();
+printColorsNumber();
 
 
 // ESERCIZIO 3
@@ -104,7 +103,7 @@ function addNumbers() {
 
     console.log(`Il risultato finale è ${total}`);
 }
-// addNumbers();
+addNumbers();
 
 
 // ESERCIZIO 4
@@ -152,7 +151,7 @@ function checkAccess() {
         console.log('Accesso negato!');
     }
 }
-// checkAccess();
+checkAccess();
 
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
@@ -221,4 +220,4 @@ function checkAccessImproved() {
         console.log('Accesso negato!');
     }
 }
-// checkAccessImproved();
+checkAccessImproved();
